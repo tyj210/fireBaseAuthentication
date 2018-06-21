@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A50FEAD61AB5BBB2F3D799A /* Pods_VRNotebook1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF4BB8167B55778EA1B1FB8 /* Pods_VRNotebook1.framework */; };
+		84A5054B1F0377D50008239A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5054A1F0377D50008239A /* AppDelegate.swift */; };
+		84A5054D1F0377D50008239A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5054C1F0377D50008239A /* ViewController.swift */; };
+		84A505501F0377D50008239A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A5054E1F0377D50008239A /* Main.storyboard */; };
+		84A505521F0377D50008239A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A505511F0377D50008239A /* Assets.xcassets */; };
+		84A505551F0377D50008239A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A505531F0377D50008239A /* LaunchScreen.storyboard */; };
+		84A505601F0377D50008239A /* VRNotebook1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5055F1F0377D50008239A /* VRNotebook1Tests.swift */; };
+		84A5056B1F0377D50008239A /* VRNotebook1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5056A1F0377D50008239A /* VRNotebook1UITests.swift */; };
+		84A505791F0378A90008239A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A505781F0378A90008239A /* GoogleService-Info.plist */; };
+		84A5057D1F037CA80008239A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84A5057C1F037CA80008239A /* Podfile */; };
+		84A5057F1F0382EE0008239A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5057E1F0382EE0008239A /* Login.swift */; };
+		84A505811F0383010008239A /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A505801F0383010008239A /* SignUp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A5055C1F0377D50008239A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A5053F1F0377D40008239A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A505461F0377D40008239A;
+			remoteInfo = VRNotebook1;
+		};
+		84A505671F0377D50008239A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A5053F1F0377D40008239A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A505461F0377D40008239A;
+			remoteInfo = VRNotebook1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19AAEB804779DF6CF65B9905 /* Pods-VRNotebook1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRNotebook1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRNotebook1/Pods-VRNotebook1.debug.xcconfig"; sourceTree = "<group>"; };
+		23E3DA29BA7E13CE9AF80CAC /* Pods-VRNotebook1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRNotebook1.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRNotebook1/Pods-VRNotebook1.release.xcconfig"; sourceTree = "<group>"; };
+		2FF4BB8167B55778EA1B1FB8 /* Pods_VRNotebook1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRNotebook1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A505471F0377D40008239A /* VRNotebook1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRNotebook1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A5054A1F0377D50008239A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A5054C1F0377D50008239A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A5054F1F0377D50008239A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A505511F0377D50008239A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A505541F0377D50008239A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A505561F0377D50008239A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A5055B1F0377D50008239A /* VRNotebook1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRNotebook1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A5055F1F0377D50008239A /* VRNotebook1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRNotebook1Tests.swift; sourceTree = "<group>"; };
+		84A505611F0377D50008239A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A505661F0377D50008239A /* VRNotebook1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRNotebook1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A5056A1F0377D50008239A /* VRNotebook1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRNotebook1UITests.swift; sourceTree = "<group>"; };
+		84A5056C1F0377D50008239A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A505781F0378A90008239A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84A5057C1F037CA80008239A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		84A5057E1F0382EE0008239A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		84A505801F0383010008239A /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A505441F0377D40008239A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A50FEAD61AB5BBB2F3D799A /* Pods_VRNotebook1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A505581F0377D50008239A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A505631F0377D50008239A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A5053E1F0377D40008239A = {
+			isa = PBXGroup;
+			children = (
+				84A5057C1F037CA80008239A /* Podfile */,
+				84A505491F0377D40008239A /* VRNotebook1 */,
+				84A5055E1F0377D50008239A /* VRNotebook1Tests */,
+				84A505691F0377D50008239A /* VRNotebook1UITests */,
+				84A505481F0377D40008239A /* Products */,
+				CD96B25B21B398DFBE813267 /* Pods */,
+				CBB195CB91A578E444BD7800 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A505481F0377D40008239A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A505471F0377D40008239A /* VRNotebook1.app */,
+				84A5055B1F0377D50008239A /* VRNotebook1Tests.xctest */,
+				84A505661F0377D50008239A /* VRNotebook1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A505491F0377D40008239A /* VRNotebook1 */ = {
+			isa = PBXGroup;
+			children = (
+				84A5054A1F0377D50008239A /* AppDelegate.swift */,
+				84A5054C1F0377D50008239A /* ViewController.swift */,
+				84A5054E1F0377D50008239A /* Main.storyboard */,
+				84A5057E1F0382EE0008239A /* Login.swift */,
+				84A505801F0383010008239A /* SignUp.swift */,
+				84A505511F0377D50008239A /* Assets.xcassets */,
+				84A505531F0377D50008239A /* LaunchScreen.storyboard */,
+				84A505561F0377D50008239A /* Info.plist */,
+				84A505781F0378A90008239A /* GoogleService-Info.plist */,
+			);
+			path = VRNotebook1;
+			sourceTree = "<group>";
+		};
+		84A5055E1F0377D50008239A /* VRNotebook1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84A5055F1F0377D50008239A /* VRNotebook1Tests.swift */,
+				84A505611F0377D50008239A /* Info.plist */,
+			);
+			path = VRNotebook1Tests;
+			sourceTree = "<group>";
+		};
+		84A505691F0377D50008239A /* VRNotebook1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A5056A1F0377D50008239A /* VRNotebook1UITests.swift */,
+				84A5056C1F0377D50008239A /* Info.plist */,
+			);
+			path = VRNotebook1UITests;
+			sourceTree = "<group>";
+		};
+		CBB195CB91A578E444BD7800 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FF4BB8167B55778EA1B1FB8 /* Pods_VRNotebook1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD96B25B21B398DFBE813267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19AAEB804779DF6CF65B9905 /* Pods-VRNotebook1.debug.xcconfig */,
+				23E3DA29BA7E13CE9AF80CAC /* Pods-VRNotebook1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A505461F0377D40008239A /* VRNotebook1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A5056F1F0377D50008239A /* Build configuration list for PBXNativeTarget "VRNotebook1" */;
+			buildPhases = (
+				9C1A2CA57BD04F229D87A32F /* [CP] Check Pods Manifest.lock */,
+				84A505431F0377D40008239A /* Sources */,
+				84A505441F0377D40008239A /* Frameworks */,
+				84A505451F0377D40008239A /* Resources */,
+				559B8F97084C8C5356AFB58E /* [CP] Embed Pods Frameworks */,
+				DB432D991400887048D52BBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRNotebook1;
+			productName = VRNotebook1;
+			productReference = 84A505471F0377D40008239A /* VRNotebook1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A5055A1F0377D50008239A /* VRNotebook1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A505721F0377D50008239A /* Build configuration list for PBXNativeTarget "VRNotebook1Tests" */;
+			buildPhases = (
+				84A505571F0377D50008239A /* Sources */,
+				84A505581F0377D50008239A /* Frameworks */,
+				84A505591F0377D50008239A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A5055D1F0377D50008239A /* PBXTargetDependency */,
+			);
+			name = VRNotebook1Tests;
+			productName = VRNotebook1Tests;
+			productReference = 84A5055B1F0377D50008239A /* VRNotebook1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84A505651F0377D50008239A /* VRNotebook1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A505751F0377D50008239A /* Build configuration list for PBXNativeTarget "VRNotebook1UITests" */;
+			buildPhases = (
+				84A505621F0377D50008239A /* Sources */,
+				84A505631F0377D50008239A /* Frameworks */,
+				84A505641F0377D50008239A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A505681F0377D50008239A /* PBXTargetDependency */,
+			);
+			name = VRNotebook1UITests;
+			productName = VRNotebook1UITests;
+			productReference = 84A505661F0377D50008239A /* VRNotebook1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A5053F1F0377D40008239A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tychicus C Jones";
+				TargetAttributes = {
+					84A505461F0377D40008239A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VGKB492MNH;
+						ProvisioningStyle = Automatic;
+					};
+					84A5055A1F0377D50008239A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VGKB492MNH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84A505461F0377D40008239A;
+					};
+					84A505651F0377D50008239A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VGKB492MNH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84A505461F0377D40008239A;
+					};
+				};
+			};
+			buildConfigurationList = 84A505421F0377D40008239A /* Build configuration list for PBXProject "VRNotebook1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A5053E1F0377D40008239A;
+			productRefGroup = 84A505481F0377D40008239A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A505461F0377D40008239A /* VRNotebook1 */,
+				84A5055A1F0377D50008239A /* VRNotebook1Tests */,
+				84A505651F0377D50008239A /* VRNotebook1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A505451F0377D40008239A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A5057D1F037CA80008239A /* Podfile in Resources */,
+				84A505551F0377D50008239A /* LaunchScreen.storyboard in Resources */,
+				84A505521F0377D50008239A /* Assets.xcassets in Resources */,
+				84A505791F0378A90008239A /* GoogleService-Info.plist in Resources */,
+				84A505501F0377D50008239A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A505591F0377D50008239A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A505641F0377D50008239A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		559B8F97084C8C5356AFB58E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRNotebook1/Pods-VRNotebook1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1A2CA57BD04F229D87A32F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB432D991400887048D52BBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRNotebook1/Pods-VRNotebook1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A505431F0377D40008239A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A5057F1F0382EE0008239A /* Login.swift in Sources */,
+				84A505811F0383010008239A /* SignUp.swift in Sources */,
+				84A5054D1F0377D50008239A /* ViewController.swift in Sources */,
+				84A5054B1F0377D50008239A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A505571F0377D50008239A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A505601F0377D50008239A /* VRNotebook1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A505621F0377D50008239A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A5056B1F0377D50008239A /* VRNotebook1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A5055D1F0377D50008239A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A505461F0377D40008239A /* VRNotebook1 */;
+			targetProxy = 84A5055C1F0377D50008239A /* PBXContainerItemProxy */;
+		};
+		84A505681F0377D50008239A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A505461F0377D40008239A /* VRNotebook1 */;
+			targetProxy = 84A505671F0377D50008239A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A5054E1F0377D50008239A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A5054F1F0377D50008239A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A505531F0377D50008239A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A505541F0377D50008239A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A5056D1F0377D50008239A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A5056E1F0377D50008239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A505701F0377D50008239A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AAEB804779DF6CF65B9905 /* Pods-VRNotebook1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = VRNotebook1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tychicus.VRNotebook1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84A505711F0377D50008239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E3DA29BA7E13CE9AF80CAC /* Pods-VRNotebook1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = VRNotebook1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tychicus.VRNotebook1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84A505731F0377D50008239A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = VRNotebook1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tychicus.VRNotebook1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRNotebook1.app/VRNotebook1";
+			};
+			name = Debug;
+		};
+		84A505741F0377D50008239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = VRNotebook1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tychicus.VRNotebook1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRNotebook1.app/VRNotebook1";
+			};
+			name = Release;
+		};
+		84A505761F0377D50008239A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = VRNotebook1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tychicus.VRNotebook1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VRNotebook1;
+			};
+			name = Debug;
+		};
+		84A505771F0377D50008239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = VRNotebook1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tychicus.VRNotebook1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VRNotebook1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A505421F0377D40008239A /* Build configuration list for PBXProject "VRNotebook1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A5056D1F0377D50008239A /* Debug */,
+				84A5056E1F0377D50008239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A5056F1F0377D50008239A /* Build configuration list for PBXNativeTarget "VRNotebook1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A505701F0377D50008239A /* Debug */,
+				84A505711F0377D50008239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A505721F0377D50008239A /* Build configuration list for PBXNativeTarget "VRNotebook1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A505731F0377D50008239A /* Debug */,
+				84A505741F0377D50008239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A505751F0377D50008239A /* Build configuration list for PBXNativeTarget "VRNotebook1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A505761F0377D50008239A /* Debug */,
+				84A505771F0377D50008239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A5053F1F0377D40008239A /* Project object */;
+}

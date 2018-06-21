@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>80037800026-o3g4olpt24o8p2koldnh89p3l1ut7vei.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.80037800026-o3g4olpt24o8p2koldnh89p3l1ut7vei</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcpy6lqwd6evmJlk27kVEYfBTuVMNVuLg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>80037800026</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Tychicus.VRNotebook1</string>
+	<key>PROJECT_ID</key>
+	<string>vrnotebook1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vrnotebook1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:80037800026:ios:7dd49dfea9ab8d84</string>
+	<key>DATABASE_URL</key>
+	<string>https://vrnotebook1.firebaseio.com</string>
+</dict>
+</plist>
